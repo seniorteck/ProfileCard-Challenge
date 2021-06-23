@@ -71,4 +71,12 @@ p{
 .social-info .fab{
     margin: 0 20px;
     color: var(--color-2);
+    transition: all 250ms ease-in-out;
+}
+
+.social-info .fab:hover{
+    background-color: var(--color-2);
+    color: var(--color-4);
+    padding: 7px;
+    border-radius: 50px;
 }
